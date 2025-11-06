@@ -3,7 +3,7 @@ import { Phone, Mail, MessageCircle } from 'lucide-react';
 
 const ContactFooter = () => {
   const phone = "+39 800 123 456";
-  const email = "info@consulenzafinanziaria.it";
+  const email = "info@consulenzabancaria.it";
   const whatsappNumber = "+393409051936"; // user-provided WhatsApp
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\\d]/g, '')}`;
 
@@ -84,7 +84,7 @@ const ContactFooter = () => {
       <footer className="mt-16 border-t border-slate-200">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 text-sm text-slate-600">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-            <p>© {new Date().getFullYear()} Consulente Finanziario. Tutti i diritti riservati.</p>
+            <p>© {new Date().getFullYear()} Consulente Bancario. Tutti i diritti riservati.</p>
             <div className="flex items-center gap-6">
               <a href="#" className="hover:text-slate-900">Privacy Policy</a>
               <a href="#" className="hover:text-slate-900">Cookie</a>

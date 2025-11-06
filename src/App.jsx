@@ -15,7 +15,7 @@ function App() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-blue-900">Chi Sono</h2>
-              <p className="mt-4 text-slate-600">Sono un consulente finanziario con esperienza pluriennale nel settore bancario. Accompagno famiglie, professionisti e imprese nelle scelte più importanti: dall’acquisto della casa alla crescita aziendale. Lavoro con un approccio umano, ascolto attivo e massima trasparenza per individuare la soluzione più adatta ai tuoi obiettivi.</p>
+              <p className="mt-4 text-slate-600">Sono un consulente bancario con esperienza pluriennale nel settore bancario. Accompagno famiglie, professionisti e imprese nelle scelte più importanti: dall’acquisto della casa alla crescita aziendale. Lavoro con un approccio umano, ascolto attivo e massima trasparenza per individuare la soluzione più adatta ai tuoi obiettivi.</p>
               <ul className="mt-4 list-disc list-inside text-slate-600 space-y-1">
                 <li>Certificazioni e aggiornamento continuo</li>
                 <li>Rete di partner bancari e finanziari selezionati</li>
@@ -25,7 +25,7 @@ function App() {
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl ring-1 ring-slate-200">
               <img
                 src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?q=80&w=1600&auto=format&fit=crop"
-                alt="Consulente finanziario in ufficio"
+                alt="Consulente bancario in ufficio"
                 className="h-full w-full object-cover"
                 loading="lazy"
               />

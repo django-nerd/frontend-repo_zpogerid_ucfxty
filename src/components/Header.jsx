@@ -31,9 +31,9 @@ const Header = () => {
       {/* Main navigation */}
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
-          <div className="h-9 w-9 rounded-lg bg-blue-900 text-white grid place-items-center font-semibold">CF</div>
+          <div className="h-9 w-9 rounded-lg bg-blue-900 text-white grid place-items-center font-semibold">CB</div>
           <div>
-            <div className="text-blue-900 font-semibold tracking-tight">Consulente Finanziario</div>
+            <div className="text-blue-900 font-semibold tracking-tight">Consulente Bancario</div>
             <div className="text-xs text-slate-500">Mutui • Prestiti • Imprese</div>
           </div>
         </a>
