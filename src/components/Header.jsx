@@ -3,7 +3,7 @@ import { Phone, MessageCircle, Facebook, Instagram, Linkedin } from 'lucide-reac
 
 const Header = () => {
   const phone = "+39 800 123 456";
-  const whatsappNumber = "+393331234567"; // international format
+  const whatsappNumber = "+393409051936"; // international format (user provided)
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, '')}`;
 
   return (

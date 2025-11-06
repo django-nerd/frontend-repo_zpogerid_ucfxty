@@ -4,8 +4,8 @@ import { Phone, Mail, MessageCircle } from 'lucide-react';
 const ContactFooter = () => {
   const phone = "+39 800 123 456";
   const email = "info@consulenzafinanziaria.it";
-  const whatsappNumber = "+393331234567";
-  const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, '')}`;
+  const whatsappNumber = "+393409051936"; // user-provided WhatsApp
+  const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\\d]/g, '')}`;
 
   return (
     <section id="contatti" className="bg-gradient-to-b from-blue-50 to-white pt-20">
@@ -40,7 +40,7 @@ const ContactFooter = () => {
             <div className="rounded-xl bg-blue-900 text-white p-6">
               <h3 className="text-xl font-semibold">Contatti diretti</h3>
               <div className="mt-4 space-y-3">
-                <a href={`tel:${phone.replace(/\s/g, '')}`} className="flex items-center gap-2 hover:underline"><Phone className="h-5 w-5"/> {phone}</a>
+                <a href={`tel:${phone.replace(/\\s/g, '')}`} className="flex items-center gap-2 hover:underline"><Phone className="h-5 w-5"/> {phone}</a>
                 <a href={`mailto:${email}`} className="flex items-center gap-2 hover:underline"><Mail className="h-5 w-5"/> {email}</a>
                 <a href={whatsappLink} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-emerald-600 hover:bg-emerald-500"> <MessageCircle className="h-5 w-5"/> WhatsApp</a>
                 <p className="text-sm text-blue-100">Lun-Ven 9:00-18:30 • Sabato su appuntamento</p>
